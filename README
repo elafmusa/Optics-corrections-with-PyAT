@@ -1,1 +1,4 @@
-
+An accelerator with m-BPMS and n-correctors produces an m x n dimensional response matrix:
+$$C_{mn}=\frac{\sqrt{\beta_m\beta_n}}{2\sin(\pi \nu)}\cos(\pi\nu -\phi(s)+\phi(s_0)) + \frac{\eta_i \eta_j}{\alpha_c L_o}$$
+In LOCO the measured orbit response matrix ORM is fitted to the lattice model, to find the proper quadrpoles strengths:
+$$  \Delta g_k =( \sum_{k}\frac{\partial{C_{i,j}}}{\partial{g_k}} ^{T}\frac{\partial{C_{i,j}}}{\partial{g_k}})^{-1} \sum_{k}\frac{\partial{C_{i,j}}}{\partial{g_k}}(C_{model,i,j}-\hat{C_{i,j}}) $$
