@@ -1,3 +1,7 @@
-The application of closed orbit-based optics correction LOCO for FCC-ee lattices is demonstrate.
-The code was implemented using the Python accelerator toolbox (PyAT). The impact of alignment errors on FCC the
-lattice optics parameters were studied
+Implementation of the Linear Optics from Closed Orbit (LOCO) algorithm for optimizing FCC-ee lattice parameters using Python's Accelerator Toolbox (PyAT). 
+
+Key Highlights:
+Two examples are avavilable including:
+-Alignment Error Analysis: Exploring the impact of alignment errors on FCC-ee z-mode lattice optics parameters.
+-Correction Chain Utilization: Utilize a correction chain to iteratively reach the desired optics parameters.
+-Verification with PETRAIII Measurements: Validate the LOCO implementation by performing a verification on measurements from PETRAIII.
