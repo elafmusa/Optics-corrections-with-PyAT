@@ -235,8 +235,8 @@ def ORM_x(dkick, ring, used_correctors_ind, used_bpm,includeDispersion=False):
         _, _, elemdata = at.get_optics(ring, used_bpm)
         closed_orbitx = elemdata.closed_orbit[:, 0] - closed_orbitx0
         closed_orbity = elemdata.closed_orbit[:, 2] - closed_orbity0
-        print('closed_orbitx1', closed_orbitx[:4])
-        print('closed_orbity1', closed_orbity[:4])
+
+
         cxx_p.append(closed_orbitx)
         cxy_p.append(closed_orbity)
 
@@ -245,8 +245,8 @@ def ORM_x(dkick, ring, used_correctors_ind, used_bpm,includeDispersion=False):
         _, _, elemdata = at.get_optics(ring, used_bpm)
         closed_orbitx = elemdata.closed_orbit[:, 0] - closed_orbitx0
         closed_orbity = elemdata.closed_orbit[:, 2] - closed_orbity0
-        print('closed_orbitx2', closed_orbitx[:4])
-        print('closed_orbity2', closed_orbity[:4])
+
+
         cxx_m.append(closed_orbitx)
         cxy_m.append(closed_orbity)
 
@@ -340,8 +340,7 @@ def ORM_x1(dkick, ring, used_correctors_ind, used_bpm, includeDispersion =False)
         _, _, elemdata = at.get_optics(ring, used_bpm)
         closed_orbitx = elemdata.closed_orbit[:, 0] - closed_orbitx0
         closed_orbity = elemdata.closed_orbit[:, 2] - closed_orbity0
-        print('closed_orbitx1', closed_orbitx[:4])
-        print('closed_orbity1', closed_orbity[:4])
+
         cxx_p.append(closed_orbitx)
         cxy_p.append(closed_orbity)
 
@@ -350,8 +349,7 @@ def ORM_x1(dkick, ring, used_correctors_ind, used_bpm, includeDispersion =False)
         _, _, elemdata = at.get_optics(ring, used_bpm)
         closed_orbitx = elemdata.closed_orbit[:, 0] - closed_orbitx0
         closed_orbity = elemdata.closed_orbit[:, 2] - closed_orbity0
-        print('closed_orbitx2', closed_orbitx[:4])
-        print('closed_orbity2', closed_orbity[:4])
+
         cxx_m.append(closed_orbitx)
         cxy_m.append(closed_orbity)
 
